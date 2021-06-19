@@ -1,0 +1,48 @@
+﻿  custom_elements.cpp
+  main.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_stdlib.cpp
+  imgui_widgets.cpp
+C:\Users\nasty\Desktop\FrogGang.cc\ImGUI\imgui_impl_win32.cpp(308,22): error C2429: language feature 'init-statements in if/switch' requires compiler flag '/std:c++17'
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(87,45): error C2664: 'char *GetDirectoryFile(char *)': cannot convert argument 1 from 'const char [8]' to 'char *' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(87,36): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings) (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(70,7): message : see declaration of 'GetDirectoryFile' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(87,57): error C2664: 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream<std::experimental::filesystem::v1::path>(const std::experimental::filesystem::v1::path &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const std::_Iosb<int>::_Openmode' to 'const std::experimental::filesystem::v1::path &' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(87,57): message : Reason: cannot convert from 'const std::_Iosb<int>::_Openmode' to 'const std::experimental::filesystem::v1::path' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\main.h(87,57): message : use of undefined type 'std::experimental::filesystem::v1::path' (compiling source file main.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\fstream(45,19): message : see declaration of 'std::experimental::filesystem::v1::path' (compiling source file main.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\fstream(1027,5): message : see declaration of 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\sdk\New.h(26,29): error C3861: '__readgsqword': identifier not found (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(39,19): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(42,17): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(45,32): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(48,20): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(51,15): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(54,19): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(61,20): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(64,25): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(67,15): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(70,18): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(73,29): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(76,31): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(79,16): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(82,19): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(308,25): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(365,22): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(368,21): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(424,20): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\Hook.h(427,18): error C7525: inline variables require at least '/std:c++17' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\cheat_funcs\Entity.h(307,78): error C2664: 'bool m_strcmp(char *,char *)': cannot convert argument 2 from 'const char [10]' to 'char *' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\cheat_funcs\Entity.h(307,67): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings) (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\crt.h(58,6): message : see declaration of 'm_strcmp' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\cheat_funcs\Entity.h(307,115): error C2664: 'bool m_strcmp(char *,char *)': cannot convert argument 2 from 'const char [11]' to 'char *' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\cheat_funcs\Entity.h(307,103): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings) (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\crt.h(58,6): message : see declaration of 'm_strcmp' (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\imgui_elements.h(252,45): error C2676: binary '+': 'ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\imgui_elements.h(252,123): error C2676: binary '+': 'ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\imgui_elements.h(351,35): error C2676: binary '+': 'const ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\imgui_elements.h(352,40): error C2676: binary '+': 'const ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator (compiling source file main.cpp)
+C:\Users\nasty\Desktop\FrogGang.cc\imgui_elements.h(352,75): error C2676: binary '-': 'const ImVec2' does not define this operator or a conversion to a type acceptable to the predefined operator (compiling source file main.cpp)
